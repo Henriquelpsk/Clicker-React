@@ -1,0 +1,48 @@
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	min-height: 30px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+.titulo{
+	color: white;
+	padding: 20px 0;
+}
+h1,p{
+	margin: 0;
+}
+
+.ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.li{
+	color: white;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.botao{
+	background-color: black;
+	color: white;
+	height: 90px;
+	width: 120px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.botao:hover{
+background-color: rgb(26, 26, 26);
+transition: ease-in-out;
+}
